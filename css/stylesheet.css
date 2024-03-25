@@ -12,11 +12,11 @@ margin-top: 20px;
 }
 
 body{
-    background-color: rgb(114, 144, 205);
+    background-color: rgba(219, 226, 200, 0.942);
 }
 
 .fa-flag {
-    color: red;
+    color: rgb(59, 59, 59);
     font-size: 2rem
 }
 
@@ -46,4 +46,44 @@ margin-left: -100px;
 
 .tooltip:hover .tooltiptext {
 visibility: visible;
+}
+
+legend {
+    font-size: 1.25rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #0e0d0d;
+}
+
+label {
+    font-size: 1rem;
+    font-family: sans-serif;
+    color: #0e0d0d;
+}
+
+fieldset {
+    border: 2px solid #857f7f;
+    border-radius: 6px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#container {
+    width: 85%;
+    margin: 0 auto;
+    font-size: large;
+}
+
+.required {
+    color: darkred;
+    font-size: .8rem;
+    font-style: italic;
+}
+
+.header {
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: #0e0d0d;
+    text-align: center;
+    margin-top: 20px;
 }
